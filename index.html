@@ -7,10 +7,7 @@
         }
         h2 {
             text-align: center;
-        }
-        center.image {
-            text-align: center;
-        }
+        
         </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,9 +16,31 @@
 </head>
 
 
-<body>
+<body style="text-align: center">
    <h1>HELLO HTML</h1> 
    <h2> Surfing the web</h2>
+   <fieldset>
+       <legend> Name <em>TO</em> Choose</legend>
+       <label>
+           <input id="Andrii" type="radio" name="Andrii-Andrey" value="Andrii" checked>
+           Andrii 
+       </label>
+       <label>
+        <input id="Andrey" type="radio" name="Andrii-Andrey" value="Andrey" checked>
+        Andrey
+    </label>
+   </fieldset>
+   <input type="text" name="FILE" placeholder="Attach here" required>
+   <button type="submit">UPLOAD</button>
+   <p>
+<ul>
+    <li> NEVER</li>
+    <li> ALWAYS</li>
+    <li> FOREVER</li>
+</ul>
+
+   </p>
+
    <img  src="surf.jpeg" alt="MISSING" class="center.image"> 
 </body>
 </html>
